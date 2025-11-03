@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		4D8F54D42EB0C190000DF465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54D32EB0C190000DF465 /* AppDelegate.swift */; };
 		4D8F54D62EB0C190000DF465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54D52EB0C190000DF465 /* SceneDelegate.swift */; };
-		4D8F54D82EB0C190000DF465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54D72EB0C190000DF465 /* ViewController.swift */; };
-		4D8F54DB2EB0C190000DF465 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F54DA2EB0C190000DF465 /* Base */; };
 		4D8F54DD2EB0C192000DF465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F54DC2EB0C192000DF465 /* Assets.xcassets */; };
 		4D8F54E02EB0C192000DF465 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F54DF2EB0C192000DF465 /* Base */; };
+		4D8F54F32EB0EDA6000DF465 /* CommercesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54F12EB0EDA6000DF465 /* CommercesViewController.swift */; };
+		4D8F54F42EB0EDA6000DF465 /* CommercesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F54F22EB0EDA6000DF465 /* CommercesViewController.xib */; };
+		4D8F54FB2EB21EC9000DF465 /* CommerceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54F92EB21EC9000DF465 /* CommerceCollectionViewCell.swift */; };
+		4D8F54FC2EB21EC9000DF465 /* CommerceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F54FA2EB21EC9000DF465 /* CommerceCollectionViewCell.xib */; };
+		4D8F54FE2EB2A242000DF465 /* Commerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F54FD2EB2A242000DF465 /* Commerce.swift */; };
+		4D8F55022EB2A6F4000DF465 /* CommercesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F55012EB2A6F4000DF465 /* CommercesInteractor.swift */; };
+		4D8F55052EB2B11A000DF465 /* CommercesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F55042EB2B11A000DF465 /* CommercesRouter.swift */; };
+		4D8F55072EB3E421000DF465 /* CommercesPressenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F55062EB3E421000DF465 /* CommercesPressenter.swift */; };
+		4D8F550C2EB53905000DF465 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F550A2EB53905000DF465 /* CategoryCollectionViewCell.swift */; };
+		4D8F550D2EB53905000DF465 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F550B2EB53905000DF465 /* CategoryCollectionViewCell.xib */; };
+		4D8F55192EB7DE0A000DF465 /* CommerceDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F55182EB7DE0A000DF465 /* CommerceDetailRouter.swift */; };
+		4D8F551D2EB8CE87000DF465 /* CommerceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8F551A2EB8CE87000DF465 /* CommerceDetailViewController.swift */; };
+		4D8F551E2EB8CE87000DF465 /* CommerceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8F551B2EB8CE87000DF465 /* CommerceDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D8F54D02EB0C190000DF465 /* Waylet_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waylet_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8F54D32EB0C190000DF465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D8F54D52EB0C190000DF465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D8F54D72EB0C190000DF465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D8F54DA2EB0C190000DF465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D8F54DC2EB0C192000DF465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D8F54DF2EB0C192000DF465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D8F54E12EB0C192000DF465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8F54F12EB0EDA6000DF465 /* CommercesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercesViewController.swift; sourceTree = "<group>"; };
+		4D8F54F22EB0EDA6000DF465 /* CommercesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommercesViewController.xib; sourceTree = "<group>"; };
+		4D8F54F92EB21EC9000DF465 /* CommerceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommerceCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D8F54FA2EB21EC9000DF465 /* CommerceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommerceCollectionViewCell.xib; sourceTree = "<group>"; };
+		4D8F54FD2EB2A242000DF465 /* Commerce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commerce.swift; sourceTree = "<group>"; };
+		4D8F55012EB2A6F4000DF465 /* CommercesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercesInteractor.swift; sourceTree = "<group>"; };
+		4D8F55042EB2B11A000DF465 /* CommercesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercesRouter.swift; sourceTree = "<group>"; };
+		4D8F55062EB3E421000DF465 /* CommercesPressenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercesPressenter.swift; sourceTree = "<group>"; };
+		4D8F550A2EB53905000DF465 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D8F550B2EB53905000DF465 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		4D8F55182EB7DE0A000DF465 /* CommerceDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommerceDetailRouter.swift; sourceTree = "<group>"; };
+		4D8F551A2EB8CE87000DF465 /* CommerceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommerceDetailViewController.swift; sourceTree = "<group>"; };
+		4D8F551B2EB8CE87000DF465 /* CommerceDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommerceDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +80,120 @@
 			children = (
 				4D8F54D32EB0C190000DF465 /* AppDelegate.swift */,
 				4D8F54D52EB0C190000DF465 /* SceneDelegate.swift */,
-				4D8F54D72EB0C190000DF465 /* ViewController.swift */,
-				4D8F54D92EB0C190000DF465 /* Main.storyboard */,
-				4D8F54DC2EB0C192000DF465 /* Assets.xcassets */,
+				4D8F54E72EB0C67D000DF465 /* Commerces */,
+				4D8F55102EB7DB4F000DF465 /* CommerceDetail */,
 				4D8F54DE2EB0C192000DF465 /* LaunchScreen.storyboard */,
 				4D8F54E12EB0C192000DF465 /* Info.plist */,
+				4D8F54DC2EB0C192000DF465 /* Assets.xcassets */,
 			);
 			path = Waylet_App;
+			sourceTree = "<group>";
+		};
+		4D8F54E72EB0C67D000DF465 /* Commerces */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F54EA2EB0EB11000DF465 /* View */,
+				4D8F54FF2EB2A3B2000DF465 /* Interactor */,
+				4D8F55002EB2A3BB000DF465 /* Presenter */,
+				4D8F54E92EB0CBA9000DF465 /* Entity */,
+				4D8F55032EB2B0D9000DF465 /* Router */,
+			);
+			path = Commerces;
+			sourceTree = "<group>";
+		};
+		4D8F54E92EB0CBA9000DF465 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F54FD2EB2A242000DF465 /* Commerce.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4D8F54EA2EB0EB11000DF465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F55092EB53708000DF465 /* Category */,
+				4D8F55082EB536FD000DF465 /* Commerce */,
+				4D8F54F12EB0EDA6000DF465 /* CommercesViewController.swift */,
+				4D8F54F22EB0EDA6000DF465 /* CommercesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D8F54FF2EB2A3B2000DF465 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F55012EB2A6F4000DF465 /* CommercesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4D8F55002EB2A3BB000DF465 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F55062EB3E421000DF465 /* CommercesPressenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4D8F55032EB2B0D9000DF465 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F55042EB2B11A000DF465 /* CommercesRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4D8F55082EB536FD000DF465 /* Commerce */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F54F92EB21EC9000DF465 /* CommerceCollectionViewCell.swift */,
+				4D8F54FA2EB21EC9000DF465 /* CommerceCollectionViewCell.xib */,
+			);
+			path = Commerce;
+			sourceTree = "<group>";
+		};
+		4D8F55092EB53708000DF465 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F550A2EB53905000DF465 /* CategoryCollectionViewCell.swift */,
+				4D8F550B2EB53905000DF465 /* CategoryCollectionViewCell.xib */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4D8F55102EB7DB4F000DF465 /* CommerceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F551C2EB8CE87000DF465 /* View */,
+				4D8F55122EB7DB65000DF465 /* Presenter */,
+				4D8F55132EB7DB75000DF465 /* Router */,
+			);
+			path = CommerceDetail;
+			sourceTree = "<group>";
+		};
+		4D8F55122EB7DB65000DF465 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4D8F55132EB7DB75000DF465 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F55182EB7DE0A000DF465 /* CommerceDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4D8F551C2EB8CE87000DF465 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D8F551A2EB8CE87000DF465 /* CommerceDetailViewController.swift */,
+				4D8F551B2EB8CE87000DF465 /* CommerceDetailViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8F550D2EB53905000DF465 /* CategoryCollectionViewCell.xib in Resources */,
 				4D8F54DD2EB0C192000DF465 /* Assets.xcassets in Resources */,
+				4D8F54F42EB0EDA6000DF465 /* CommercesViewController.xib in Resources */,
+				4D8F551E2EB8CE87000DF465 /* CommerceDetailViewController.xib in Resources */,
 				4D8F54E02EB0C192000DF465 /* Base in Resources */,
-				4D8F54DB2EB0C190000DF465 /* Base in Resources */,
+				4D8F54FC2EB21EC9000DF465 /* CommerceCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +270,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D8F54D82EB0C190000DF465 /* ViewController.swift in Sources */,
+				4D8F54FB2EB21EC9000DF465 /* CommerceCollectionViewCell.swift in Sources */,
+				4D8F54FE2EB2A242000DF465 /* Commerce.swift in Sources */,
+				4D8F551D2EB8CE87000DF465 /* CommerceDetailViewController.swift in Sources */,
+				4D8F54F32EB0EDA6000DF465 /* CommercesViewController.swift in Sources */,
+				4D8F55022EB2A6F4000DF465 /* CommercesInteractor.swift in Sources */,
+				4D8F55072EB3E421000DF465 /* CommercesPressenter.swift in Sources */,
+				4D8F550C2EB53905000DF465 /* CategoryCollectionViewCell.swift in Sources */,
 				4D8F54D42EB0C190000DF465 /* AppDelegate.swift in Sources */,
+				4D8F55192EB7DE0A000DF465 /* CommerceDetailRouter.swift in Sources */,
 				4D8F54D62EB0C190000DF465 /* SceneDelegate.swift in Sources */,
+				4D8F55052EB2B11A000DF465 /* CommercesRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D8F54D92EB0C190000DF465 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8F54DA2EB0C190000DF465 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D8F54DE2EB0C192000DF465 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,12 +424,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2L8698N8CM;
+				DEVELOPMENT_TEAM = 34X8N7973B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Waylet_App/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos conocer tu ubicación para ofrecerte comercios cercanos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,12 +452,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2L8698N8CM;
+				DEVELOPMENT_TEAM = 34X8N7973B;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Waylet_App/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Necesitamos conocer tu ubicación para ofrecerte comercios cercanos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
